@@ -1,4 +1,4 @@
-package me.dio.ex2;
+package me.dio.inheritance.ex2;
 
 public abstract class Contribuidor {
 

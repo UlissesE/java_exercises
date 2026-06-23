@@ -1,4 +1,4 @@
-package me.dio.ex2;
+package me.dio.inheritance.ex2;
 
 public class Main {
     public static void main(String[] args) {

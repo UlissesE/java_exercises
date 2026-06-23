@@ -1,4 +1,4 @@
-package me.dio.ex1;
+package me.dio.inheritance.ex1;
 
 public class IngressoFamilia extends Ingresso {
 
