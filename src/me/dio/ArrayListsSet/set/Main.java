@@ -4,11 +4,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] argsr) {
-        Set<User> users = new TreeSet<>(Comparator.comparingInt(User::getId));
+        Set<User> users = new LinkedHashSet<>();
         users.add(new User(1, "Eduardo"));
-        users.add(new User(4, "Silva"));
         users.add(new User(2, "Ulisses"));
         users.add(new User(3, "Pereira"));
+        users.add(new User(4, "Silva"));
 
         System.out.println(users.contains(new User(1, "Eduardo")));
 
